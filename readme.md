@@ -5,7 +5,9 @@
 ## 🚀Começando
 Trata-se de uma Landing page onde você consegue selecionar o personagem desejavel através de botões e ler um pouco sobre cada um. Para quem quiser ver melhor, [clique aqui](https://matheusandraderibeiro.github.io/one-piece/).
 
-![](https://i.im.ge/2023/10/05/NJXBCz.onepiece.jpg)
+<h2>
+    <img src="https://i.im.ge/2023/10/05/NJdgep.onepiece.jpg"/>
+</h2>
 
 ## 📖 Sobre
 Sua funcionalidade se baseia em adição e remoção da classe "selecionado" dos personagens e botões, onde apenas quem possui essa classe é visível para o usuário, deste modo, a cada seleção feita ela é realocada o que permite a visualização de todos os personagens um de cada vez.

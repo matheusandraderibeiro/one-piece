@@ -1,0 +1,53 @@
+.botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 180px;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.botao {
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background: var(--preto);
+}
+
+.botao img {
+    border-radius: 50%;
+}
+
+.botao.selecionado {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px var(--efeito-botao);
+}
+
+@media (max-width: 769px) {
+    .botoes {
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .botao img {
+        max-width: 60px;
+    }
+}
+
+@media (max-width: 425px) {
+    .botoes {
+        top: -20%;
+        padding: 20px;
+    }
+
+    .botao img {
+        max-width: 50px;
+    }
+}
